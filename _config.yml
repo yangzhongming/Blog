@@ -81,3 +81,4 @@ deploy:
   type: git
   repo: git@github.com:/yangzhongming/yangzhongming.github.io.git
   branch: master
+  
