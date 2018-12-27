@@ -7,15 +7,15 @@ title:
 author: 博主
 
 menu:
-  home: 首页
-  archives: 归档
-  categories: 分类
-  tags: 标签
-  about: 关于
-  search: 搜索
+  home: 首&emsp;&emsp;页
+  archives: 归&emsp;&emsp;档
+  categories: 分&emsp;&emsp;类
+  tags: 标&emsp;&emsp;签
+  about: 关&emsp;&emsp;于
+  search: 站内搜索
   schedule: 日程表
   sitemap: 站点地图
-  commonweal: 公益404
+  #commonweal: 公益404
 
 sidebar:
   overview: 站点概览
