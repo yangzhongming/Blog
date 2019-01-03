@@ -1,5 +1,4 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
 <div class="copyright">{#
 #}{% set current = date(Date.now(), "YYYY") %}{#
 #}&copy; {% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} &mdash; {% endif %}{#
@@ -39,11 +38,5 @@
   #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
-#}</div>
-{% endif %}
-
-{% if theme.footer.custom_text %}
-  <div class="footer-custom">{#
-  #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
