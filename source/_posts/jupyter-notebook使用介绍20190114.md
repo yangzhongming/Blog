@@ -2,7 +2,7 @@
 title: Jupyter NoteBook使用介绍
 tags: [IDE]
 categories: 工具介绍
-images: http://pkffmwo8x.bkt.clouddn.com/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0_2019011000.jpg
+images: 
 ---
 ### 默认工作目录的设置
  * Anaconda安装完成后，自带了Jupyter NoteBook，安装成功后默认的Jupyter NoteBook设置查看如下，点击Jupyter NoteBook右键属性：
@@ -46,3 +46,4 @@ images: http://pkffmwo8x.bkt.clouddn.com/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0_20
     //设置monokai模板主题
     jt -t monokai -f dejavu -fs 12 -T
 	
+*	参考链接：[Jupyter Notebook介绍、安装及使用教程](https://www.jianshu.com/p/91365f343585)
