@@ -5,7 +5,11 @@ categories: 工具介绍
 images: 
 ---
 ### 设置工作目录
- * Anaconda安装完成后，自带了Jupyter NoteBook，安装成功后默认的Jupyter NoteBook设置查看如下，点击Jupyter NoteBook右键属性：
+* Anaconda安装完成后，自带了Jupyter NoteBook，初次启动可能会出现如下错误：
+![H0ppL.png](https://ww2.yunjiexi.club/2019/05/08/H0ppL.png)
+出现原因是：未安装nodejs造成的，安装后。该错误解决。
+
+* 安装成功后默认的Jupyter NoteBook设置查看如下，点击Jupyter NoteBook右键属性：
 	 * 【目标T】：
 	 C:\Anaconda3\python.exe C:\Anaconda3\cwp.py C:\Anaconda3 C:\Anaconda3\python.exe C:\Anaconda3\Scripts\jupyter-notebook-script.py %USERPROFILE%	
 	 * 【起始位置】：
