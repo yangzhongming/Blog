@@ -3,7 +3,7 @@ title: Jupyter NoteBook使用介绍
 tags: [日常笔记]
 categories: 工具介绍
 images: 
-date: 2019/5/8
+date: 2019-05-08
 ---
 ### 设置工作目录
 * Anaconda安装完成后，自带了Jupyter NoteBook，初次启动可能会出现如下错误：
