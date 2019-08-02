@@ -1,6 +1,52 @@
 // Custom styles.
 .site-meta {
   padding: 20px 0;
-  color: #fff;
-  background: #fc6423;
+  color: #f77;
+  background: #f77;
+        background-image: initial;
+		background-position-x: initial;
+		background-position-y: initial;
+		background-size: initial;
+		background-repeat-x: initial;
+		background-repeat-y: initial;
+		background-attachment: initial;
+		background-origin: initial;
+		background-clip: initial;
+		background-color: rgb(255, 119, 119);
+}
+
+@keyframes heartAnimate {
+    0%,100%{transform:scale(1);}
+    10%,30%{transform:scale(0.9);}
+    20%,40%,60%,80%{transform:scale(1.1);}
+    50%,70%{transform:scale(1.1);}
+}
+#heart {
+    animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+    color: #f77;
+}
+
+//图片外部的容器方框
+.out-img-topic {
+  display: block;
+  max-height:350px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+//图片
+img.img-topic {
+  display: block ;
+  margin-left: .7em;
+  margin-right: .7em;
+  padding: 0;
+  float: right;
+  clear: right;
+}
+
+// 空心圆 circle，实心圆为 disc
+ul {
+list-style-type: disc;  
 }

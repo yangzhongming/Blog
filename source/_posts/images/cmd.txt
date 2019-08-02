@@ -1,0 +1,6 @@
+
+hexo clean
+hexo s -g 
+
+hexo clean
+hexo d -g

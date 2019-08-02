@@ -40,7 +40,7 @@ keywords: "pyhon, 大数据, AI"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup.
@@ -51,7 +51,7 @@ footer:
   icon: heart
 
   # visitors count
-  counter: true
+  counter: false
   
   # If not defined, will be used `author` from Hexo main config.
   copyright:
@@ -159,7 +159,7 @@ links_layout: block
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
-avatar: http://pkffmwo8x.bkt.clouddn.com/avatar.jpg
+avatar: https://ww1.yunjiexi.club/2019/02/27/DNkWV.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -221,7 +221,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -557,16 +557,16 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i> 访问用户：
-  site_uv_footer: 人
+  site_uv_header: <i class="fa fa-user"></i>访客数
+  site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i> 访问次数：
-  site_pv_footer: 次
+  site_pv_header: <i class="fa fa-eye"></i>总访问量
+  site_pv_footer:
   # custom pv span for one page only
-  page_pv: false
-  page_pv_header: <i class="fa fa-file-o"></i> &nbsp点击量
-  page_pv_footer: 次
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i> 
+  page_pv_footer: 
 
 
 # Tencent analytics ID

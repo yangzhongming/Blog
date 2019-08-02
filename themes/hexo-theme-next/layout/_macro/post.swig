@@ -209,7 +209,8 @@
                {% if theme.post_meta.item_text %}
                  <span class="post-meta-item-text">{{__('post.visitors')}}&#58;</span>
                {% endif %}
-                 <span class="leancloud-visitors-count"></span>
+				  <span class="leancloud-visitors-count"></span>
+				  <span>℃</span>
              </span>
           {% endif %}
 
@@ -290,6 +291,12 @@
       {% endif %}
 
       {% if is_index %}
+	  
+	  {% if post.images %}
+		<div class="out-img-topic">
+			<img src={{ post.images }} class="img-topic">
+		</div>
+      {% endif %}
         {% if post.description and theme.excerpt_description %}
           {{ post.description }}
           <!--noindex-->
