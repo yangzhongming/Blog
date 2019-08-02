@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+>>>>>>> d7111a907807eff1842740c2a6f418671fdc2669
 <div class="copyright">{#
 #}{% set current = date(Date.now(), "YYYY") %}{#
 #}&copy; {% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} &mdash; {% endif %}{#
