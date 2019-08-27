@@ -26,7 +26,7 @@ date: 2019-02-28 21:00:00
 ## 使用webpack进行项目的构建
 - 项目初始化
 
-        npm install packagename
+        npm init
         npm install jquery
 	  
      初始化完成后，可看到项目生成package.json文件和node_modules文件夹。
